@@ -1,13 +1,12 @@
 package com.horizon.hewanlangka
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 
 class MainActivity : AppCompatActivity() {
     private lateinit var rvHewan: RecyclerView
@@ -15,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        supportActionBar?.title = "Hewan Langka di Indonesia"
+        supportActionBar?.title = "Hewan Langka"
         setContentView(R.layout.activity_main)
 
         rvHewan = findViewById(R.id.rv_Hewan)
@@ -31,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         rvHewan.adapter = listHewanAdapter
     }
 
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.main_menu, menu)
         return super.onCreateOptionsMenu(menu)
     }

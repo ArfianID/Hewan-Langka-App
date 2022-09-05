@@ -10,7 +10,9 @@
 
     <string name="my_name">Arfian Aditya Indrianto</string>
     <string name="email">arfian230@gmail.com</string>
-    <string name="desc_title_about">About me:</string>
-    <string name="desc_content_about">Saya merupakan alumni SMKN 2 Pengasih, lulusan tahun 2022, Teknik Elektronika Industri. \n\nSaya memiliki hobi ngoding, ada rasa kebanggaan tersendiri kalau berhasil memecahkan masalah. Begitu ada informasi mengenai beasiswa di Dicoding ini, saya langsuung mendaftar. Saya juga menginformasikan kepada teman-teman agar kami bisa diskusi bareng.\n\nTerima kasih banyak kepada tim Dicoding dan IDCamp atas beasiswanya. Karena ini sangat membantu sekali terhadap perkembangan belajar pemrograman saya. \n\nHarapanya semoga banyak juga yang belajar pemrograman melalaui platform Dicoding, kualitas edukasinya udah top, tidak bisa diragukan. Dan semoga tahun depan ada beasiswa lagi wkwwk.\n\nDicoding, Mantap!!!</string>
-
+    <string name="desc_title">Contact Person:</string>
+    <string name="desc_instagram">\@arfiannnz</string>
+    <string name="desc_twitter">\@Arfian_AI.</string>
+    <string name="instagram">Instagram:</string>
+    <string name="twitter">Twitter:</string>
 </resources>

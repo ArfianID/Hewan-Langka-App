@@ -31,7 +31,6 @@ class ListHewanAdapter(private val listHewan: ArrayList<Hewan>): RecyclerView.Ad
 
         Glide.with(holder.itemView.context)
             .load(hewan.photo)
-            .apply(RequestOptions().override(55, 55))
             .into(holder.tvPhoto)
 
         holder.tvName.text = hewan.name
