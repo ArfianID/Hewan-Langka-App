@@ -1,12 +1,12 @@
 # Hewan-Langka-App
-A simple application by applying the use of cardview to display various rare animals in the form of a list.
+Project latihan membuat aplikasi sederhana dengan menerapkan recyclerview untuk menampilkan berbagai hewan langka dalam bentuk list.
 
 # Screenshot
 <img src="https://user-images.githubusercontent.com/66890460/184566250-b5e0e9b6-ec73-41ac-a133-337525475212.jpg"
      alt="Splash Screen"
      style="float: left; margin-right: 10px;"
      width="200" />
-<img src="https://user-images.githubusercontent.com/66890460/184566300-6d4686ea-46ee-4165-a245-6aba2598f61a.jpg"
+<img src="https://user-images.githubusercontent.com/66890460/188890388-b9a7e902-a9de-42dd-967d-6a322f8bee48.jpg"
      alt="Home Screen"
      style="float: left; margin-right: 10px;"
      width="200" />
@@ -14,18 +14,14 @@ A simple application by applying the use of cardview to display various rare ani
      alt="Detail Screen"
      style="float: left; margin-right: 10px;"
      width="200" />
-<img src="https://user-images.githubusercontent.com/66890460/184566318-bb19aa42-9daf-4ae3-a21a-a4aee857fc8a.jpg"
-     alt="About Screen"
-     style="float: left; margin-right: 10px;"
-     width="200" />
      
-     ## Features
+     ## Implement
 - [x] Display splash screen
 - [x] Display images and information in the Format list
 - [x] Display images and information on the detail page
 - [x] Display page about
 
-## Installation
+## Clone
 Clone this repository and import into Android Studio
 ```
 https://github.com/ArfianID/Hewan-Langka-App.git
