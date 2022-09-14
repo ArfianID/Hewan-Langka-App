@@ -16,6 +16,8 @@
             android:exported="false" />
         <activity
             android:name=".AboutActivity"
+            android:label="About"
+            android:theme="@style/AppTheme.ProfileTheme"
             android:exported="false" />
         <activity
             android:name=".SplashActivity"

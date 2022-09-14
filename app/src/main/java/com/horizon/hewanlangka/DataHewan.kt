@@ -1,6 +1,5 @@
 package com.horizon.hewanlangka
 
-
 object DataHewan {
     private var nama = arrayOf(
         "Harimau Sumatera",

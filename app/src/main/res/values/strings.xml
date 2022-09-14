@@ -6,13 +6,10 @@
     <string name="detail">Detail</string>
     <string name="detail_photo">Foto Hewan</string>
 
-    <string name="about">About</string>
-
-    <string name="my_name">Arfian Aditya Indrianto</string>
+    <string name="name">Arfian Aditya Indrianto</string>
+    <string name="mobile">+6289618339***</string>
+    <string name="instagram">\@arfiannnz</string>
+    <string name="twitter">\@Arfian_AI</string>
     <string name="email">arfian230@gmail.com</string>
-    <string name="desc_title">Contact Person:</string>
-    <string name="desc_instagram">\@arfiannnz</string>
-    <string name="desc_twitter">\@Arfian_AI.</string>
-    <string name="instagram">Instagram:</string>
-    <string name="twitter">Twitter:</string>
+    <string name="address">Klampis, 61/27, Pengasih</string>
 </resources>
