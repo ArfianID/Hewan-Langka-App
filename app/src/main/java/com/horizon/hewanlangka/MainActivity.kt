@@ -4,6 +4,9 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
+import android.widget.ImageView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -14,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        supportActionBar?.title = "Hewan Langka"
+        supportActionBar?.title = "Animals"
         setContentView(R.layout.activity_main)
 
         rvHewan = findViewById(R.id.rv_Hewan)
@@ -28,6 +31,12 @@ class MainActivity : AppCompatActivity() {
         rvHewan.layoutManager = LinearLayoutManager(this)
         val listHewanAdapter = ListHewanAdapter(list)
         rvHewan.adapter = listHewanAdapter
+
+        listHewanAdapter.setOnClickCallBack(object: ListHewanAdapter.OnItemClickCallBack {
+            override fun onItemClicked(data: Hewan) {
+                Toast.makeText(applicationContext, "${data.name} ditambahkan ke favorit!", Toast.LENGTH_SHORT).show()
+            }
+        })
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

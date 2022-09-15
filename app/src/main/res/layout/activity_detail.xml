@@ -42,6 +42,6 @@
             android:layout_marginBottom="30dp"
             android:lineSpacingExtra="2sp"
             android:text="@string/detail"
-            android:textColor="@color/primary_text" />
+            android:textColor="@color/black" />
     </LinearLayout>
 </ScrollView>

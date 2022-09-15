@@ -3,8 +3,14 @@
       xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/action_about"
-        android:icon="@drawable/person"
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/ic_baseline_favorite_24"
         app:showAsAction="always"
-        android:title="about"/>
+        android:title="Favorite"/>
+
+    <item
+        android:id="@+id/action_about"
+        android:icon="@drawable/user"
+        app:showAsAction="always"
+        android:title="About"/>
 </menu>

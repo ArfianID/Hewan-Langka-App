@@ -22,7 +22,7 @@
             android:text="About me"
             android:layout_marginBottom="10dp"/>
 
-        <RelativeLayout style="@style/profileDetailsLayout">
+        <RelativeLayout style="@style/parentMargin">
             <ImageView
                 android:id="@+id/nameImageView"
                 android:src="@drawable/man"
@@ -41,7 +41,7 @@
         </RelativeLayout>
         <View style="@style/divider" />
 
-        <RelativeLayout style="@style/profileDetailsLayout">
+        <RelativeLayout style="@style/parentMargin">
             <ImageView
                 android:id="@+id/mobileImageView"
                 android:src="@drawable/phone"
@@ -59,7 +59,7 @@
         </RelativeLayout>
         <View style="@style/divider" />
 
-        <RelativeLayout style="@style/profileDetailsLayout">
+        <RelativeLayout style="@style/parentMargin">
             <ImageView
                 android:id="@+id/instagram"
                 android:src="@drawable/instagram"
@@ -77,7 +77,7 @@
         </RelativeLayout>
         <View style="@style/divider" />
 
-        <RelativeLayout style="@style/profileDetailsLayout">
+        <RelativeLayout style="@style/parentMargin">
             <ImageView
                 android:id="@+id/twitter"
                 android:src="@drawable/twitter"
@@ -95,7 +95,7 @@
         </RelativeLayout>
         <View style="@style/divider" />
 
-        <RelativeLayout style="@style/profileDetailsLayout">
+        <RelativeLayout style="@style/parentMargin">
             <ImageView
                 android:id="@+id/emailImageView"
                 android:src="@drawable/message"
@@ -114,7 +114,7 @@
         </RelativeLayout>
 
         <View style="@style/divider" />
-        <RelativeLayout style="@style/profileDetailsLayout">
+        <RelativeLayout style="@style/parentMargin">
             <ImageView
                 android:id="@+id/addressImageView"
                 android:src="@drawable/home"

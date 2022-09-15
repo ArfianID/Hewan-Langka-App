@@ -11,7 +11,18 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 
 class ListHewanAdapter(private val listHewan: ArrayList<Hewan>): RecyclerView.Adapter<ListHewanAdapter.ListViewHolder>() {
+    lateinit var onItemClickCallBack: OnItemClickCallBack
+
+    interface OnItemClickCallBack{
+        fun onItemClicked(data: Hewan)
+    }
+
+ fun setOnClickCallBack(onItemClickCallBack: OnItemClickCallBack){
+     this.onItemClickCallBack = onItemClickCallBack
+ }
+
     class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        var addFav: ImageView = itemView.findViewById(R.id.add_favorite)
         var tvName: TextView = itemView.findViewById(R.id.tv_item_name)
         var tvAsal: TextView = itemView.findViewById(R.id.tv_asal)
         var tvPhoto: ImageView = itemView.findViewById(R.id.img_item_photo)
@@ -39,6 +50,7 @@ class ListHewanAdapter(private val listHewan: ArrayList<Hewan>): RecyclerView.Ad
         val context = holder.itemView.context
 
         holder.itemView.setOnClickListener {
+            onItemClickCallBack.onItemClicked(listHewan[position])
             val moveDetail = Intent(context, DetailActivity::class.java)
             moveDetail.putExtra(DetailActivity.EXTRA_NAME, hewan.name)
             moveDetail.putExtra(DetailActivity.EXTRA_ASAL, hewan.asal)
@@ -46,6 +58,10 @@ class ListHewanAdapter(private val listHewan: ArrayList<Hewan>): RecyclerView.Ad
             moveDetail.putExtra(DetailActivity.EXTRA_PHOTO1, hewan.photo1)
             moveDetail.putExtra(DetailActivity.EXTRA_DETAIL, hewan.detail)
             context.startActivity(moveDetail)
+        }
+
+        fun addFavorite(){
+            holder.addFav.setImageResource(R.drawable.ic_baseline_favorite_24)
         }
     }
 
