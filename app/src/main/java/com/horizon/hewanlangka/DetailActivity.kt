@@ -35,9 +35,4 @@ class DetailActivity : AppCompatActivity() {
         const val EXTRA_PHOTO1 = "extra_photo1"
         const val EXTRA_DETAIL = "extra_detail"
     }
-
-    override fun onSupportNavigateUp(): Boolean {
-        onBackPressed()
-        return true
-    }
 }

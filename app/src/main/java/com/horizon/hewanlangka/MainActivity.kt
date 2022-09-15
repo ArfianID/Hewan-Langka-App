@@ -31,12 +31,6 @@ class MainActivity : AppCompatActivity() {
         rvHewan.layoutManager = LinearLayoutManager(this)
         val listHewanAdapter = ListHewanAdapter(list)
         rvHewan.adapter = listHewanAdapter
-
-        listHewanAdapter.setOnClickCallBack(object: ListHewanAdapter.OnItemClickCallBack {
-            override fun onItemClicked(data: Hewan) {
-                Toast.makeText(applicationContext, "${data.name} ditambahkan ke favorit!", Toast.LENGTH_SHORT).show()
-            }
-        })
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

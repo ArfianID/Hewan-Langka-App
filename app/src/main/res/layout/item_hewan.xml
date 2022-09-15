@@ -9,7 +9,7 @@
 
     <RelativeLayout
         android:layout_marginTop="10dp"
-        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -18,7 +18,8 @@
             android:layout_width="55dp"
             android:layout_height="55dp"
             android:layout_marginEnd="16dp"
-            tools:src="@tools:sample/avatars" />
+            tools:src="@tools:sample/avatars"
+            tools:ignore="ImageContrastCheck"/>
 
         <LinearLayout
             android:id="@+id/list"
@@ -45,20 +46,25 @@
                 android:maxLines="2"
                 tools:text="@string/asal" />
         </LinearLayout>
-        <view class="android.widget.ImageView"
-              style="@style/divider"
-              android:layout_marginLeft="65dp"
-              android:layout_marginTop="10dp"
-              android:layout_below="@id/list"/>
 
-        <ImageView
+        <view
+            class="android.widget.ImageView"
+            style="@style/divider"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/list"
+            tools:ignore="ImageContrastCheck"/>
+
+        <ImageButton
             android:id="@+id/add_favorite"
             android:layout_centerVertical="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="20dp"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:src="@drawable/ic_baseline_favorite_border_24"/>
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:background="#00FFFFFF"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_baseline_favorite_border_24"
+            android:contentDescription="@string/favorite"/>
     </RelativeLayout>
 
 </androidx.cardview.widget.CardView>
