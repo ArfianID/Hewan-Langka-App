@@ -2,10 +2,6 @@
 Project latihan membuat aplikasi sederhana dengan menerapkan recyclerview untuk menampilkan berbagai hewan langka dalam bentuk list.
 
 # Screenshot
-<img src="https://user-images.githubusercontent.com/66890460/184566250-b5e0e9b6-ec73-41ac-a133-337525475212.jpg"
-     alt="Splash Screen"
-     style="float: left; margin-right: 10px;"
-     width="200" />
 <img src="https://user-images.githubusercontent.com/66890460/188890388-b9a7e902-a9de-42dd-967d-6a322f8bee48.jpg"
      alt="Home Screen"
      style="float: left; margin-right: 10px;"
