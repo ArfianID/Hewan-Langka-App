@@ -24,7 +24,7 @@ Project latihan membuat aplikasi sederhana dengan menerapkan recyclerview untuk 
 ## Clone
 Clone this repository and import into Android Studio
 ```
-https://github.com/ArfianID/Hewan-Langka-App.git
+https://github.com/ArfianID/Recycler-View-Example.git
 ```
 ## Author
 * #### Arfian Aditya I
